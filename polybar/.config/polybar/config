@@ -42,7 +42,7 @@ alert = #bd2c40
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 22
+height = 21
 ;offset-x = 0%
 ;offset-y = 0%
 radius = 0.0
@@ -54,14 +54,14 @@ foreground = ${colors.foreground}
 line-size = 2
 line-color = #f00
 
-border-size = 1
+border-size = 0
 border-color = #00000000
 
 padding-left = 0
 padding-right = 0
 
 module-margin-left = 0
-module-margin-right = 1
+module-margin-right = 0
 
 font-0 = fixfont:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
