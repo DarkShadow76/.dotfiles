@@ -102,7 +102,8 @@ bindsym $mod+a focus parent
 
 exec nitrogen --restore
 exec --no-startup-id conky
-exec_always compton -f
+exec_allways compton -f
+exec lxqt-powermanagement
 
 ###Polybar launch script
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -216,13 +217,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #2C1B2533
-set $inactive-bg-color   #2C1B25
+set $bg-color 	         #2C1B25
+set $inactive-bg-color   #2C1B2533
 set $i3lock		 #202020
 set $fws		 #373e4f40
 set $barcolor            #282a36
-set $text-color          #efefef
-set $inactive-text-color #dadada
+set $text-color          #fbfbfb
+set $inactive-text-color #c6c6c633
 set $urgent-bg-color     #2C1B25
 set $indicator		 #2C1B25
 
