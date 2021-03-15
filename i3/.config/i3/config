@@ -219,15 +219,15 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #2C1B25
-set $inactive-bg-color   #2C1B2533
-set $i3lock		 #202020
-set $fws		 #373e4f40
+set $bg-color 	         #2E1D27
+set $inactive-bg-color   #2E1D2733
+set $i3lock		           #2E1D27
+set $fws		             #373e4f40
 set $barcolor            #282a36
 set $text-color          #fbfbfb
-set $inactive-text-color #c6c6c633
-set $urgent-bg-color     #2C1B25
-set $indicator		 #2C1B25
+set $inactive-text-color #9a9a9aE6
+set $urgent-bg-color     #D7419A
+set $indicator		       #D7419A
 
 # window colors
 #                       border              background          text                  indicator
@@ -239,8 +239,8 @@ client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color     
 hide_edge_borders both
 for_window [class=".*"] border pixel 0
 
-default_border normal
-default_floating_border normal
+#default_floating_border normal
+title_align left
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
