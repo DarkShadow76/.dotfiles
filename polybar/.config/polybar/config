@@ -364,11 +364,11 @@ poll-interval = 1
 
 format-charging = <label-charging> <animation-charging>
 format-charging-underline = #ffb52a
-label-charging =  Charging: %percentage%%
+label-charging =  Char:%percentage%%
 
 format-discharging = <label-discharging> <ramp-capacity>
 format-discharging-underline = ${self.format-charging-underline}
-label-discharging = Discharging %percentage%%
+label-discharging = Dischar:%percentage%%
 
 format-full-prefix = ""
 format-full-prefix-foreground = ${colors.foreground-alt}
