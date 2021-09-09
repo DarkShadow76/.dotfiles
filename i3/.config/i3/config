@@ -14,7 +14,7 @@ set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 
-font pango: SFNS Display 9.0
+font pango: SFNS Display 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -101,9 +101,9 @@ bindsym $mod+a focus parent
 ################################MODIFICATIONS XD################################
 
 exec --no-startup-id nitrogen --restore; sleep 1; compton -f
+exec --no-startup-id nm-applet
 exec --no-startup-id conky
 exec --no-startup-id qlipper
-exec nm-applet
 exec --no-startup-id xfce4-power-manager
 
 ###Polybar launch script
@@ -237,7 +237,7 @@ client.focused_inactive $inactive-bg-color  $inactive-bg-color  $inactive-text-c
 client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color           $indicator
 
 hide_edge_borders both
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 1.5
 
 #default_floating_border normal
 title_align left
