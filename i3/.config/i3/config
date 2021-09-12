@@ -176,12 +176,12 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 assign [class="discord"] $ws4
-assign [class="vlc"] $ws6
 assign [class="TelegramDesktop"] $ws5
 assign [class="Spyder"]	$ws3
 assign [class="jetbrains-pycharm-ce"] $ws3
 assign [class="Emacs"] $ws3
 assign [class="RStudio"] $ws3
+assign [class="Apache NetBeans IDE 12.0"] $ws3
 assign [class="Firefox-es"] $ws1
 assign [class="Tor Browser"] $ws7
 
