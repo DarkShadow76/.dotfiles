@@ -1,10 +1,11 @@
-
 configuration {
-	modi: "drun,run,window";
-	width: 50;
-	lines: 15;
-	columns: 1;
-	font: "SFNS Display 11";
+/*	combi-modi:"drun,window,Beats:~/applications/Scripts/Rofi-Beats/rofi-beats,ssh";*/
+	combi-modi:["window,ssh"];
+	modi: "drun";
+/*	width: 35;*/
+/*	lines: 7;*/
+/*	columns: 1;*/
+	font: "Hack 10.5";
 /*	bw: 1;*/
 	location: 2;
 /*	padding: 5;*/
@@ -12,7 +13,7 @@ configuration {
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
 	show-icons: true;
-/*	terminal: "kitty";*/
+	terminal: "kitty";
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
 /*	run-command: "{cmd}";*/
@@ -20,7 +21,7 @@ configuration {
 /*	run-shell-command: "{terminal} -e {cmd}";*/
 /*	window-command: "wmctrl -i -R {window}";*/
 /*	window-match-fields: "all";*/
-	icon-theme: true;
+	icon-theme: "Papirus";
 /*	drun-match-fields: "name,generic,exec,categories,keywords";*/
 /*	drun-categories: ;*/
 /*	drun-show-actions: false;*/
@@ -45,8 +46,8 @@ configuration {
 /*	line-padding: 1;*/
 /*	filter: ;*/
 /*	separator-style: "dash";*/
-	hide-scrollbar: true;
-	fullscreen: false;
+/*	hide-scrollbar: true;*/
+/*	fullscreen: false;*/
 /*	fake-transparency: false;*/
 /*	dpi: -1;*/
 /*	threads: 0;*/
@@ -54,9 +55,8 @@ configuration {
 /*	scroll-method: 0;*/
 /*	fake-background: "screenshot";*/
 /*	window-format: "{w}    {c}   {t}";*/
-/*	click-to-exit: true;*/
+	click-to-exit: true;
 /*	show-match: true;*/
-	theme: "./themes/breeze-dark.rasi";
 /*	color-normal: ;*/
 /*	color-urgent: ;*/
 /*	color-active: ;*/
@@ -149,4 +149,7 @@ configuration {
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
-rofi.theme: /usr/share/rofi/themes/Dark-purple.rasi
+
+//@theme "/usr/share/rofi/themes/Dark-purple.rasi"
+//@theme "/usr/share/rofi/themes/dmenu.rasi"
+@theme "/usr/share/rofi/themes/Dark-purple.rasi"
