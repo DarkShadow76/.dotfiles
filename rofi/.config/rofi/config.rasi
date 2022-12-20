@@ -1,7 +1,7 @@
 configuration {
 /*	combi-modi:"drun,window,Beats:~/applications/Scripts/Rofi-Beats/rofi-beats,ssh";*/
-	combi-modi:["window,ssh"];
-	modi: "drun";
+	combi-modi:"drun,window,ssh";
+	modi: "combi";
 /*	width: 35;*/
 /*	lines: 7;*/
 /*	columns: 1;*/
@@ -152,4 +152,5 @@ configuration {
 
 //@theme "/usr/share/rofi/themes/Dark-purple.rasi"
 //@theme "/usr/share/rofi/themes/dmenu.rasi"
+//@theme "/usr/share/rofi/themes/Dark-purple.rasi"
 @theme "/usr/share/rofi/themes/Dark-purple.rasi"
